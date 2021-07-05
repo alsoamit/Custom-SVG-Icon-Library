@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Icon from "./iconLibrary/icon";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Custom Icon Library</h1>
+      <Icon icon="TWITTER" color="black" size="40" />
+      <Icon icon="FACEBOOK" color="black" size="40" />
+      <Icon icon="LINKEDIN" color="black" size="40" />
+      <Icon icon="GITHUB" color="black" size="40" />
+      <Icon icon="VSCODE" color="black" size="40" />
     </div>
   );
 }
